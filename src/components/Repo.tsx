@@ -13,9 +13,9 @@ const Repo = ({
   return (
     <div className={classes.repo}>
       <h3>{name}</h3>
-      <p>
+      <p className={classes.language}>
         <BsCodeSlash />
-        {language}
+        <span>{language}</span>
       </p>
       <div className={classes.stats}>
         <div>
